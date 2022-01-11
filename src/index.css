@@ -1,0 +1,26 @@
+#root,
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  background-color: rgb(255, 254, 250);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(255, 254, 250);
+}
