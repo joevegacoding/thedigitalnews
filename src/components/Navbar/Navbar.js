@@ -5,9 +5,10 @@ import { keyframes } from "styled-components";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [isActive, setActive] = useState("false");
+  const [isActive, setActive] = useState(false);
   const classes = useStyles();
   const navLinks = ["Home", "Tech", "Politics", "Business"];
+  const divs = [<div></div>, <div></div>, <div></div>];
 
   const burgerClicked = () => {
     setActive(!isActive);
@@ -33,15 +34,28 @@ const Navbar = () => {
                   <a href="#">{link}</a>
                 </li>
               );
-              console.log(index / 7);
             })
           : ""}
       </ul>
+      <ul className={classes.desktopNav}>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/tech"> Tech</Link>
+        </li>
+        <li>
+          <Link>Politics</Link>
+        </li>
+        <li>
+          <Link>Business</Link>
+        </li>
+      </ul>
       <hr className={classes.line} />
       <div onClick={burgerClicked} className={classes.burger}>
-        <div className={classes.line1}></div>
-        <div className={classes.line2}></div>
-        <div className={classes.line3}></div>
+        <div className={isActive ? classes.line1 : ""}></div>
+        <div className={isActive ? classes.line2 : ""}></div>
+        <div className={isActive ? classes.line3 : ""}></div>
       </div>
     </nav>
   );
