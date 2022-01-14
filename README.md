@@ -6,10 +6,10 @@ The Digital News is a news website using a voice recognition plugin to search fo
 
 ## Screenshots
 
-<img src="" alt="drawing" width="1000 " />
+<img src="https://github.com/joevegacoding/thedigitalnews/blob/main/Images/screenshot3.png" alt="drawing" width="1000 " />
 
-<img src="" alt="drawing" width="1000"/>
+<img src="https://github.com/joevegacoding/thedigitalnews/blob/main/Images/screenshot2.png" alt="drawing" width="1000"/>
 
-<img src="https://github.com/joevegacoding/cryptopanda/blob/main/Images/Screen%20Shot%203.png" alt="drawing" width="1000" />
+<img src="https://github.com/joevegacoding/thedigitalnews/blob/main/Images/screenshot1.png" alt="drawing" width="1000" />
 
 <img src="" alt="drawing" width="1000" />
