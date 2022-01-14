@@ -7,25 +7,25 @@ const infoCards = [
   {
     color: "linear-gradient(to right, #b993d6, #8ca6db)",
     title: "Latest News",
-    text: "Give me the latest news",
+    text: "Give me the latest news about cryptocurrency",
   },
   {
     color: "linear-gradient(to right, #f2709c, #ff9472)",
     title: "News by Categories",
-    info: "Business, Entertainment, General, Health, Science, Sports, Technology",
-    text: "Give me the latest Technology news",
+
+    text: "Give me the latest news in Tech, Business, Politics ",
   },
   {
     color: "linear-gradient(to right, #50c9c3, #96deda)",
     title: "News by Terms",
-    info: "Bitcoin, PlayStation 5, Smartphones, Donald Trump...",
-    text: "What's up with PlayStation 5",
+
+    text: "Give me the news about Video Games",
   },
   {
     color: "linear-gradient(to right, #ddd6f3, #faaca8)",
     title: "News by Sources",
-    info: "CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...",
-    text: "Give me the news from CNN",
+
+    text: "Give me the news from BBC News, TechCrunch or CBC News",
   },
 ];
 
